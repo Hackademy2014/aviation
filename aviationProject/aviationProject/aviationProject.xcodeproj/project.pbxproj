@@ -24,6 +24,9 @@
 		7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */; };
 		7514DE421927965C0051888C /* badge.html in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE411927965C0051888C /* badge.html */; };
 		7514DE44192796940051888C /* aviationPics in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE43192796940051888C /* aviationPics */; };
+		7570869A1927D0290067760C /* NHAMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757086991927D0290067760C /* NHAMembershipViewController.m */; };
+		7570869D1927DAEF0067760C /* NHAAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570869C1927DAEF0067760C /* NHAAboutUsViewController.m */; };
+		7570869F1927DEC60067760C /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7570869E1927DEC60067760C /* terminal.jpg */; };
 		75ADB1FD1927A50400DFE481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB1FC1927A50400DFE481 /* Main.storyboard */; };
 		75ADB2001927A57500DFE481 /* NHAHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */; };
 		75ADB2031927A7E600DFE481 /* NHAHoursAndRates.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADB2021927A7E600DFE481 /* NHAHoursAndRates.m */; };
@@ -83,6 +86,11 @@
 		7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMenuTableViewController.m; sourceTree = "<group>"; };
 		7514DE411927965C0051888C /* badge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = badge.html; sourceTree = "<group>"; };
 		7514DE43192796940051888C /* aviationPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aviationPics; path = ../aviationPics; sourceTree = "<group>"; };
+		757086981927D0290067760C /* NHAMembershipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMembershipViewController.h; sourceTree = "<group>"; };
+		757086991927D0290067760C /* NHAMembershipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMembershipViewController.m; sourceTree = "<group>"; };
+		7570869B1927DAEF0067760C /* NHAAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAAboutUsViewController.h; sourceTree = "<group>"; };
+		7570869C1927DAEF0067760C /* NHAAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAAboutUsViewController.m; sourceTree = "<group>"; };
+		7570869E1927DEC60067760C /* terminal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = terminal.jpg; path = ../aviationPics/terminal.jpg; sourceTree = "<group>"; };
 		75ADB1FC1927A50400DFE481 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75ADB1FE1927A57500DFE481 /* NHAHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHomePageViewController.h; sourceTree = "<group>"; };
 		75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHomePageViewController.m; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 				75ADB1FE1927A57500DFE481 /* NHAHomePageViewController.h */,
 				75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */,
 				75ADB1FC1927A50400DFE481 /* Main.storyboard */,
+				7570869B1927DAEF0067760C /* NHAAboutUsViewController.h */,
+				7570869C1927DAEF0067760C /* NHAAboutUsViewController.m */,
+				757086981927D0290067760C /* NHAMembershipViewController.h */,
+				757086991927D0290067760C /* NHAMembershipViewController.m */,
 				7514DE3B192792660051888C /* NHAMenuDrawerViewController.h */,
 				7514DE3C192792660051888C /* NHAMenuDrawerViewController.m */,
 				7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */,
@@ -190,6 +202,7 @@
 		7514DE11192791740051888C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7570869E1927DEC60067760C /* terminal.jpg */,
 				75ADB2041927A8B800DFE481 /* aboutus.png */,
 				75ADB2051927A8B800DFE481 /* airplane.png */,
 				75ADB2061927A8B800DFE481 /* B17.png */,
@@ -330,6 +343,7 @@
 				75ADB22A1927A8B800DFE481 /* photogallery.png in Resources */,
 				75ADB2291927A8B800DFE481 /* phoneicon01.png in Resources */,
 				75ADB2271927A8B800DFE481 /* partnersandsponsors.png in Resources */,
+				7570869F1927DEC60067760C /* terminal.jpg in Resources */,
 				75ADB21B1927A8B800DFE481 /* B17.png in Resources */,
 				75ADB2261927A8B800DFE481 /* newsandevents.png in Resources */,
 				7514DE15192791740051888C /* InfoPlist.strings in Resources */,
@@ -356,11 +370,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7570869A1927D0290067760C /* NHAMembershipViewController.m in Sources */,
 				7514DE1B192791740051888C /* NHAAppDelegate.m in Sources */,
 				7514DE3D192792660051888C /* NHAMenuDrawerViewController.m in Sources */,
 				7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */,
 				7514DE17192791740051888C /* main.m in Sources */,
 				75ADB2001927A57500DFE481 /* NHAHomePageViewController.m in Sources */,
+				7570869D1927DAEF0067760C /* NHAAboutUsViewController.m in Sources */,
 				75ADB2031927A7E600DFE481 /* NHAHoursAndRates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
