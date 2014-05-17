@@ -24,6 +24,29 @@
 		7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */; };
 		7514DE421927965C0051888C /* badge.html in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE411927965C0051888C /* badge.html */; };
 		7514DE44192796940051888C /* aviationPics in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE43192796940051888C /* aviationPics */; };
+		75ADB1FD1927A50400DFE481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB1FC1927A50400DFE481 /* Main.storyboard */; };
+		75ADB2001927A57500DFE481 /* NHAHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */; };
+		75ADB2031927A7E600DFE481 /* NHAHoursAndRates.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADB2021927A7E600DFE481 /* NHAHoursAndRates.m */; };
+		75ADB2191927A8B800DFE481 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2041927A8B800DFE481 /* aboutus.png */; };
+		75ADB21A1927A8B800DFE481 /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2051927A8B800DFE481 /* airplane.png */; };
+		75ADB21B1927A8B800DFE481 /* B17.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2061927A8B800DFE481 /* B17.png */; };
+		75ADB21C1927A8B800DFE481 /* Blue_Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2071927A8B800DFE481 /* Blue_Sky.png */; };
+		75ADB21D1927A8B800DFE481 /* donate.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2081927A8B800DFE481 /* donate.png */; };
+		75ADB21E1927A8B800DFE481 /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2091927A8B800DFE481 /* facebookicon.png */; };
+		75ADB21F1927A8B800DFE481 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB20A1927A8B800DFE481 /* hamburger.png */; };
+		75ADB2211927A8B800DFE481 /* hoursandrates.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB20C1927A8B800DFE481 /* hoursandrates.png */; };
+		75ADB2221927A8B800DFE481 /* logo-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB20D1927A8B800DFE481 /* logo-new.png */; };
+		75ADB2231927A8B800DFE481 /* mailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB20E1927A8B800DFE481 /* mailicon.png */; };
+		75ADB2241927A8B800DFE481 /* mapsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB20F1927A8B800DFE481 /* mapsicon.png */; };
+		75ADB2251927A8B800DFE481 /* membership.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2101927A8B800DFE481 /* membership.png */; };
+		75ADB2261927A8B800DFE481 /* newsandevents.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2111927A8B800DFE481 /* newsandevents.png */; };
+		75ADB2271927A8B800DFE481 /* partnersandsponsors.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2121927A8B800DFE481 /* partnersandsponsors.png */; };
+		75ADB2281927A8B800DFE481 /* phoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2131927A8B800DFE481 /* phoneicon.png */; };
+		75ADB2291927A8B800DFE481 /* phoneicon01.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2141927A8B800DFE481 /* phoneicon01.png */; };
+		75ADB22A1927A8B800DFE481 /* photogallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2151927A8B800DFE481 /* photogallery.png */; };
+		75ADB22B1927A8B800DFE481 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2161927A8B800DFE481 /* sky.jpg */; };
+		75ADB22C1927A8B800DFE481 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2171927A8B800DFE481 /* sky.png */; };
+		75ADB22D1927A8B800DFE481 /* youtubeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADB2181927A8B800DFE481 /* youtubeicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +83,31 @@
 		7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMenuTableViewController.m; sourceTree = "<group>"; };
 		7514DE411927965C0051888C /* badge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = badge.html; sourceTree = "<group>"; };
 		7514DE43192796940051888C /* aviationPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aviationPics; path = ../aviationPics; sourceTree = "<group>"; };
+		75ADB1FC1927A50400DFE481 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75ADB1FE1927A57500DFE481 /* NHAHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHomePageViewController.h; sourceTree = "<group>"; };
+		75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHomePageViewController.m; sourceTree = "<group>"; };
+		75ADB2011927A7E600DFE481 /* NHAHoursAndRates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAHoursAndRates.h; sourceTree = "<group>"; };
+		75ADB2021927A7E600DFE481 /* NHAHoursAndRates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAHoursAndRates.m; sourceTree = "<group>"; };
+		75ADB2041927A8B800DFE481 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutus.png; path = ../aviationPics/aboutus.png; sourceTree = "<group>"; };
+		75ADB2051927A8B800DFE481 /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airplane.png; path = ../aviationPics/airplane.png; sourceTree = "<group>"; };
+		75ADB2061927A8B800DFE481 /* B17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = B17.png; path = ../aviationPics/B17.png; sourceTree = "<group>"; };
+		75ADB2071927A8B800DFE481 /* Blue_Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue_Sky.png; path = ../aviationPics/Blue_Sky.png; sourceTree = "<group>"; };
+		75ADB2081927A8B800DFE481 /* donate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donate.png; path = ../aviationPics/donate.png; sourceTree = "<group>"; };
+		75ADB2091927A8B800DFE481 /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookicon.png; path = ../aviationPics/facebookicon.png; sourceTree = "<group>"; };
+		75ADB20A1927A8B800DFE481 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hamburger.png; path = ../aviationPics/hamburger.png; sourceTree = "<group>"; };
+		75ADB20C1927A8B800DFE481 /* hoursandrates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoursandrates.png; path = ../aviationPics/hoursandrates.png; sourceTree = "<group>"; };
+		75ADB20D1927A8B800DFE481 /* logo-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-new.png"; path = "../aviationPics/logo-new.png"; sourceTree = "<group>"; };
+		75ADB20E1927A8B800DFE481 /* mailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mailicon.png; path = ../aviationPics/mailicon.png; sourceTree = "<group>"; };
+		75ADB20F1927A8B800DFE481 /* mapsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapsicon.png; path = ../aviationPics/mapsicon.png; sourceTree = "<group>"; };
+		75ADB2101927A8B800DFE481 /* membership.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = membership.png; path = ../aviationPics/membership.png; sourceTree = "<group>"; };
+		75ADB2111927A8B800DFE481 /* newsandevents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsandevents.png; path = ../aviationPics/newsandevents.png; sourceTree = "<group>"; };
+		75ADB2121927A8B800DFE481 /* partnersandsponsors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = partnersandsponsors.png; path = ../aviationPics/partnersandsponsors.png; sourceTree = "<group>"; };
+		75ADB2131927A8B800DFE481 /* phoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneicon.png; path = ../aviationPics/phoneicon.png; sourceTree = "<group>"; };
+		75ADB2141927A8B800DFE481 /* phoneicon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phoneicon01.png; path = ../aviationPics/phoneicon01.png; sourceTree = "<group>"; };
+		75ADB2151927A8B800DFE481 /* photogallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photogallery.png; path = ../aviationPics/photogallery.png; sourceTree = "<group>"; };
+		75ADB2161927A8B800DFE481 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sky.jpg; path = ../aviationPics/sky.jpg; sourceTree = "<group>"; };
+		75ADB2171927A8B800DFE481 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = ../aviationPics/sky.png; sourceTree = "<group>"; };
+		75ADB2181927A8B800DFE481 /* youtubeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtubeicon.png; path = ../aviationPics/youtubeicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +137,11 @@
 		7514DDFE192791740051888C = {
 			isa = PBXGroup;
 			children = (
+				75ADB2011927A7E600DFE481 /* NHAHoursAndRates.h */,
+				75ADB2021927A7E600DFE481 /* NHAHoursAndRates.m */,
+				75ADB1FE1927A57500DFE481 /* NHAHomePageViewController.h */,
+				75ADB1FF1927A57500DFE481 /* NHAHomePageViewController.m */,
+				75ADB1FC1927A50400DFE481 /* Main.storyboard */,
 				7514DE3B192792660051888C /* NHAMenuDrawerViewController.h */,
 				7514DE3C192792660051888C /* NHAMenuDrawerViewController.m */,
 				7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */,
@@ -137,6 +190,26 @@
 		7514DE11192791740051888C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75ADB2041927A8B800DFE481 /* aboutus.png */,
+				75ADB2051927A8B800DFE481 /* airplane.png */,
+				75ADB2061927A8B800DFE481 /* B17.png */,
+				75ADB2071927A8B800DFE481 /* Blue_Sky.png */,
+				75ADB2081927A8B800DFE481 /* donate.png */,
+				75ADB2091927A8B800DFE481 /* facebookicon.png */,
+				75ADB20A1927A8B800DFE481 /* hamburger.png */,
+				75ADB20C1927A8B800DFE481 /* hoursandrates.png */,
+				75ADB20D1927A8B800DFE481 /* logo-new.png */,
+				75ADB20E1927A8B800DFE481 /* mailicon.png */,
+				75ADB20F1927A8B800DFE481 /* mapsicon.png */,
+				75ADB2101927A8B800DFE481 /* membership.png */,
+				75ADB2111927A8B800DFE481 /* newsandevents.png */,
+				75ADB2121927A8B800DFE481 /* partnersandsponsors.png */,
+				75ADB2131927A8B800DFE481 /* phoneicon.png */,
+				75ADB2141927A8B800DFE481 /* phoneicon01.png */,
+				75ADB2151927A8B800DFE481 /* photogallery.png */,
+				75ADB2161927A8B800DFE481 /* sky.jpg */,
+				75ADB2171927A8B800DFE481 /* sky.png */,
+				75ADB2181927A8B800DFE481 /* youtubeicon.png */,
 				7514DE12192791740051888C /* aviationProject-Info.plist */,
 				7514DE13192791740051888C /* InfoPlist.strings */,
 				7514DE16192791740051888C /* main.m */,
@@ -240,10 +313,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				7514DE44192796940051888C /* aviationPics in Resources */,
+				75ADB22B1927A8B800DFE481 /* sky.jpg in Resources */,
+				75ADB2211927A8B800DFE481 /* hoursandrates.png in Resources */,
+				75ADB21C1927A8B800DFE481 /* Blue_Sky.png in Resources */,
+				75ADB21F1927A8B800DFE481 /* hamburger.png in Resources */,
+				75ADB2251927A8B800DFE481 /* membership.png in Resources */,
 				7514DE421927965C0051888C /* badge.html in Resources */,
+				75ADB22C1927A8B800DFE481 /* sky.png in Resources */,
 				7514DE3A192791A40051888C /* hamburgerStoryboard.storyboard in Resources */,
+				75ADB2281927A8B800DFE481 /* phoneicon.png in Resources */,
+				75ADB21A1927A8B800DFE481 /* airplane.png in Resources */,
+				75ADB2221927A8B800DFE481 /* logo-new.png in Resources */,
+				75ADB1FD1927A50400DFE481 /* Main.storyboard in Resources */,
+				75ADB2191927A8B800DFE481 /* aboutus.png in Resources */,
+				75ADB22D1927A8B800DFE481 /* youtubeicon.png in Resources */,
+				75ADB22A1927A8B800DFE481 /* photogallery.png in Resources */,
+				75ADB2291927A8B800DFE481 /* phoneicon01.png in Resources */,
+				75ADB2271927A8B800DFE481 /* partnersandsponsors.png in Resources */,
+				75ADB21B1927A8B800DFE481 /* B17.png in Resources */,
+				75ADB2261927A8B800DFE481 /* newsandevents.png in Resources */,
 				7514DE15192791740051888C /* InfoPlist.strings in Resources */,
+				75ADB2231927A8B800DFE481 /* mailicon.png in Resources */,
+				75ADB21D1927A8B800DFE481 /* donate.png in Resources */,
+				75ADB21E1927A8B800DFE481 /* facebookicon.png in Resources */,
 				7514DE1D192791740051888C /* Images.xcassets in Resources */,
+				75ADB2241927A8B800DFE481 /* mapsicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +360,8 @@
 				7514DE3D192792660051888C /* NHAMenuDrawerViewController.m in Sources */,
 				7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */,
 				7514DE17192791740051888C /* main.m in Sources */,
+				75ADB2001927A57500DFE481 /* NHAHomePageViewController.m in Sources */,
+				75ADB2031927A7E600DFE481 /* NHAHoursAndRates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +558,7 @@
 				7514DE35192791740051888C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "aviationProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +567,7 @@
 				7514DE38192791740051888C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
