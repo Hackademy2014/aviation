@@ -22,6 +22,10 @@
 
 @property (nonatomic, strong) IBOutlet UIButton *donateButton;
 
+@property (nonatomic, strong) IBOutlet UIButton *newsEventsButton;
+
+@property (nonatomic, strong) IBOutlet UIButton *photosButton;
+
 @property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open,* recognizer_close;
 
 @property (readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
