@@ -4,87 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="0RD-Ah-AHU">
-            <objects>
-                <viewController id="YMP-fj-Q42" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3ot-0u-EX2"/>
-                        <viewControllerLayoutGuide type="bottom" id="fDT-RQ-hzg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="oOC-mt-kG9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue_Sky.png" translatesAutoresizingMaskIntoConstraints="NO" id="1jR-S4-dyo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhC-Jt-J6O">
-                                <rect key="frame" x="52" y="135" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glI-iT-LW1" userLabel="Hours">
-                                <rect key="frame" x="52" y="183" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="hoursandrates.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="LeF-6C-ZMK" kind="modal" id="WbD-F8-1vF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ag-Wu-wv8">
-                                <rect key="frame" x="52" y="230" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mI1-au-W1L">
-                                <rect key="frame" x="52" y="277" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-jb-Z4W">
-                                <rect key="frame" x="52" y="323" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSJ-lT-jaL">
-                                <rect key="frame" x="52" y="368" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBv-T3-n3m">
-                                <rect key="frame" x="52" y="413" width="217" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.39999999999999963" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-new.png" translatesAutoresizingMaskIntoConstraints="NO" id="hVH-KL-jat">
-                                <rect key="frame" x="62" y="38" width="196" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iA1-Lr-eX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="259" y="-937"/>
-        </scene>
         <!--Home Page View Controller-->
         <scene sceneID="zQm-Qg-3Ba">
             <objects>
@@ -203,25 +122,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Kze-lW-wtW">
-                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="u0z-O3-CXd">
-                            <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="W94-EA-1w9" userLabel="HamburgerHome">
-                                <rect key="frame" x="16" y="7" width="34" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <size key="titleShadowOffset" width="8" height="0.0"/>
-                                <state key="normal" backgroundImage="hamburger.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="YMP-fj-Q42" kind="modal" modalTransitionStyle="coverVertical" id="370-Y1-EYR"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
                     <connections>
                         <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
@@ -478,7 +379,7 @@
                         <viewControllerLayoutGuide type="bottom" id="oSn-Wv-XJd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LT6-AX-ZxO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Membership Benefits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjI-Z0-XxW">
@@ -575,7 +476,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dJ2-Rs-t6e"/>
+                    <navigationItem key="navigationItem" id="dJ2-Rs-t6e">
+                        <barButtonItem key="backBarButtonItem" title="Hello" id="QMw-BB-mM2"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oh9-bn-6Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -590,7 +493,7 @@
                         <viewControllerLayoutGuide type="bottom" id="btC-cu-AKo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ww5-2b-wZU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aviation Museum" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T59-Vf-b49">
@@ -605,15 +508,6 @@
                                 <rect key="frame" x="54" y="255" width="212" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="237" translatesAutoresizingMaskIntoConstraints="NO" id="r8i-bs-wB1">
-                                <rect key="frame" x="51" y="417" width="237" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Our goal is to combine aviation preservation and educational outreach activities with social events that provide an opportunity for members to experience interesting and informative events and to share their passion for aviation history with good friends and good times.</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -635,12 +529,32 @@
                                 <rect key="frame" x="40" y="290" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJV-I0-7ec">
+                                <rect key="frame" x="31" y="397" width="277" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="237" translatesAutoresizingMaskIntoConstraints="NO" id="r8i-bs-wB1">
+                                        <rect key="frame" x="20" y="20" width="237" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <mutableString key="text">Our goal is to combine lktjrl;jglkslkalekf;slkfladkfga;lsdkf;alsdkfa;lsdkfa;sldkfasldfka;slkfa;sldkfs;dlfkas;dlfkasd;lfkas/dflkas;dfk's;dlfka';sldkfa'sldf'asdlfkas';lfkas;dlfk'sd;lfkasdl;fkas'd;fla's;dlfka's;ldfk'asldfk'as;ldfk'a;sdlkf';sdlfk'sd;lk'fa;sldkfa';sdlkfsa;kaviation preservation and educational outreach activities with social events that provide an opportunity for members to experience interesting and informative events and to share their pasasfjalskjflakejjjfjfjjfjfjjjjfj;alkwje;laksdjfalksdjfa;lskdjfa;lsjf;laksdjf;alskdjfa;sldkfja;sldkfgja;sldkfjasldkfja;lskdgja;slkdfj;slkja;slkdgja;slkdjgas;ldkfja;sldkjfa;sldkfj;alsdkjfa;slkdjfa;sldkjf;salkdjf;lekjsion for aviation history with good friends and good times.</mutableString>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="0gp-8e-gj3" appends="YES" id="Zgv-Qe-ZjH"/>
+                                        </connections>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AAX-93-8Qg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Te-ms-l9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="0gp-8e-gj3"/>
             </objects>
             <point key="canvasLocation" x="1414" y="716"/>
         </scene>
@@ -664,11 +578,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Blue_Sky.png" width="2048" height="1536"/>
         <image name="aboutus.png" width="370" height="99"/>
         <image name="donate.png" width="370" height="99"/>
         <image name="facebookicon.png" width="400" height="400"/>
-        <image name="hamburger.png" width="512" height="512"/>
         <image name="hoursandrates.png" width="370" height="99"/>
         <image name="logo-new.png" width="158" height="89"/>
         <image name="mailicon.png" width="512" height="512"/>
@@ -686,7 +598,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="B2E-7q-miN"/>
-    </inferredMetricsTieBreakers>
 </document>
