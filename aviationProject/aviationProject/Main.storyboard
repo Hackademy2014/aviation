@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="exY-BF-7RL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="exY-BF-7RL">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -227,7 +227,9 @@
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
                         <outlet property="mailButton" destination="0g8-8l-LN3" id="sQO-3D-VOa"/>
                         <outlet property="mapsButton" destination="XBI-6d-0hP" id="64u-qV-bAu"/>
+                        <outlet property="newsEventsButton" destination="VmR-nC-mib" id="p8N-W3-ZRu"/>
                         <outlet property="phoneButton" destination="Q3K-aq-X9c" id="6AZ-Ye-RFn"/>
+                        <outlet property="photosButton" destination="xqJ-F3-N5B" id="EAl-z2-G1w"/>
                         <outlet property="youtubeButton" destination="MN9-SD-rfK" id="snk-Bc-ECj"/>
                     </connections>
                 </viewController>
@@ -478,7 +480,7 @@
                         <viewControllerLayoutGuide type="bottom" id="oSn-Wv-XJd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LT6-AX-ZxO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Membership Benefits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjI-Z0-XxW">
@@ -590,7 +592,7 @@
                         <viewControllerLayoutGuide type="bottom" id="btC-cu-AKo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ww5-2b-wZU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aviation Museum" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T59-Vf-b49">

@@ -57,6 +57,10 @@
     [self.youtubeButton addTarget:self action:@selector(openYoutube:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.donateButton addTarget:self action:@selector(donate:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.newsEventsButton addTarget:self action:@selector(seeNewsAndEvents:) forControlEvents:UIControlEventTouchUpInside];
+
+    [self.photosButton addTarget:self action:@selector(seePhotos:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (IBAction)openPhone:(id)sender{
@@ -97,6 +101,18 @@
 
 - (IBAction)donate:(id)sender{
     NSString *stringURL = @"https://mobile.paypal.com/us/cgi-bin/webscr?cmd=_express-checkout-mobile&useraction=commit&token=EC-53A67114S5062843C#m";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)seeNewsAndEvents:(id)sender{
+    NSString *stringURL = @"https://www.facebook.com/nhahs";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)seePhotos:(id)sender{
+    NSString *stringURL = @"https://www.facebook.com/nhahs/photos";
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }
