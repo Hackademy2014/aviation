@@ -110,7 +110,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
                     <connections>
-                        <outlet property="phoneButton" destination="Q3K-aq-X9c" id="bbp-ca-hbI"/>
+                        <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
+                        <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
+                        <outlet property="mailButton" destination="0g8-8l-LN3" id="sQO-3D-VOa"/>
+                        <outlet property="mapsButton" destination="XBI-6d-0hP" id="64u-qV-bAu"/>
+                        <outlet property="phoneButton" destination="Q3K-aq-X9c" id="6AZ-Ye-RFn"/>
+                        <outlet property="youtubeButton" destination="MN9-SD-rfK" id="snk-Bc-ECj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT1-Vu-qSy" userLabel="First Responder" sceneMemberID="firstResponder"/>

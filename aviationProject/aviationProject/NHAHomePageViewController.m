@@ -39,30 +39,54 @@
     
     [self.phoneButton addTarget:self action:@selector(openPhone:) forControlEvents:UIControlEventTouchUpInside];
     
+    [self.mailButton addTarget:self action:@selector(openMail:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.mapsButton addTarget:self action:@selector(openMaps:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.facebookButton addTarget:self action:@selector(openFacebook:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.youtubeButton addTarget:self action:@selector(openYoutube:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.donateButton addTarget:self action:@selector(donate:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (IBAction)openPhone:(id)sender{
-    /*NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"tel:+16036694820"]];
-     [[UIApplication sharedApplication] openURL:url];*/
-    
-    /*NSString *title = @"location";
-     float latitude = 42.929435;
-     float longitude = 71.426986;
-     int zoom = 13;
-     NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%@@%1.6f,%1.6f&z=%d", title, latitude, longitude, zoom];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"tel:+16036694820"]];
+     [[UIApplication sharedApplication] openURL:url];
+}
+
+
+- (IBAction)openMail:(id)sender{
+    NSString *stringURL = @"mailto:avmuseum@nhahs.org";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)openMaps:(id)sender{
+    NSString *title = @"location";
+    float latitude = 42.929435;
+    float longitude = 71.426986;
+    int zoom = 13;
+    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%@@%1.6f,%1.6f&z=%d", title, latitude, longitude, zoom];
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)openFacebook:(id)sender{
+    NSURL *url = [NSURL URLWithString:@"fb://profile/nhahs"];
+     [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)openYoutube:(id)sender{
+    NSString *stringURL = @"https://www.youtube.com/watch?feature=player_embedded&v=M_g39M7XkW4";
      NSURL *url = [NSURL URLWithString:stringURL];
-     [[UIApplication sharedApplication] openURL:url];*/
-    
-    /*NSString *stringURL = @"mailto:avmuseum@nhahs.org";
-     NSURL *url = [NSURL URLWithString:stringURL];
-     [[UIApplication sharedApplication] openURL:url];*/
-    
-    /*NSURL *url = [NSURL URLWithString:@"fb://profile/nhahs"];
-     [[UIApplication sharedApplication] openURL:url];*/
-    
-    /*NSString *stringURL = @"https://www.youtube.com/watch?feature=player_embedded&v=M_g39M7XkW4";
-     NSURL *url = [NSURL URLWithString:stringURL];
-     [[UIApplication sharedApplication] openURL:url];*/
+     [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)donate:(id)sender{
+    NSString *stringURL = @"https://mobile.paypal.com/us/cgi-bin/webscr?cmd=_express-checkout-mobile&useraction=commit&token=EC-53A67114S5062843C#m";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
 }
 
 - (void)didReceiveMemoryWarning
