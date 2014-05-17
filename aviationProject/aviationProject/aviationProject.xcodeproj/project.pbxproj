@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7514DE0B192791740051888C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0A192791740051888C /* Foundation.framework */; };
+		7514DE0D192791740051888C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0C192791740051888C /* CoreGraphics.framework */; };
+		7514DE0F192791740051888C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0E192791740051888C /* UIKit.framework */; };
+		7514DE15192791740051888C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE13192791740051888C /* InfoPlist.strings */; };
+		7514DE17192791740051888C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE16192791740051888C /* main.m */; };
+		7514DE1B192791740051888C /* NHAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE1A192791740051888C /* NHAAppDelegate.m */; };
+		7514DE1D192791740051888C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE1C192791740051888C /* Images.xcassets */; };
+		7514DE24192791740051888C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE23192791740051888C /* XCTest.framework */; };
+		7514DE25192791740051888C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0A192791740051888C /* Foundation.framework */; };
+		7514DE26192791740051888C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0E192791740051888C /* UIKit.framework */; };
+		7514DE2E192791740051888C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE2C192791740051888C /* InfoPlist.strings */; };
+		7514DE30192791740051888C /* aviationProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE2F192791740051888C /* aviationProjectTests.m */; };
+		7514DE3A192791A40051888C /* hamburgerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */; };
+		7514DE3D192792660051888C /* NHAMenuDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE3C192792660051888C /* NHAMenuDrawerViewController.m */; };
+		7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */; };
+		7514DE421927965C0051888C /* badge.html in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE411927965C0051888C /* badge.html */; };
+		7514DE44192796940051888C /* aviationPics in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE43192796940051888C /* aviationPics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7514DE27192791740051888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7514DDFF192791740051888C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7514DE06192791740051888C;
+			remoteInfo = aviationProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7514DE07192791740051888C /* aviationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aviationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7514DE0A192791740051888C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7514DE0C192791740051888C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7514DE0E192791740051888C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7514DE12192791740051888C /* aviationProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aviationProject-Info.plist"; sourceTree = "<group>"; };
+		7514DE14192791740051888C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7514DE16192791740051888C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7514DE18192791740051888C /* aviationProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aviationProject-Prefix.pch"; sourceTree = "<group>"; };
+		7514DE19192791740051888C /* NHAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAAppDelegate.h; sourceTree = "<group>"; };
+		7514DE1A192791740051888C /* NHAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAAppDelegate.m; sourceTree = "<group>"; };
+		7514DE1C192791740051888C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7514DE22192791740051888C /* aviationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aviationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7514DE23192791740051888C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7514DE2B192791740051888C /* aviationProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aviationProjectTests-Info.plist"; sourceTree = "<group>"; };
+		7514DE2D192791740051888C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7514DE2F192791740051888C /* aviationProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aviationProjectTests.m; sourceTree = "<group>"; };
+		7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = hamburgerStoryboard.storyboard; sourceTree = "<group>"; };
+		7514DE3B192792660051888C /* NHAMenuDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMenuDrawerViewController.h; sourceTree = "<group>"; };
+		7514DE3C192792660051888C /* NHAMenuDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMenuDrawerViewController.m; sourceTree = "<group>"; };
+		7514DE3E1927945B0051888C /* NHAMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMenuTableViewController.h; sourceTree = "<group>"; };
+		7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMenuTableViewController.m; sourceTree = "<group>"; };
+		7514DE411927965C0051888C /* badge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = badge.html; sourceTree = "<group>"; };
+		7514DE43192796940051888C /* aviationPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aviationPics; path = ../aviationPics; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7514DE04192791740051888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE0D192791740051888C /* CoreGraphics.framework in Frameworks */,
+				7514DE0F192791740051888C /* UIKit.framework in Frameworks */,
+				7514DE0B192791740051888C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7514DE1F192791740051888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE24192791740051888C /* XCTest.framework in Frameworks */,
+				7514DE26192791740051888C /* UIKit.framework in Frameworks */,
+				7514DE25192791740051888C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7514DDFE192791740051888C = {
+			isa = PBXGroup;
+			children = (
+				7514DE3B192792660051888C /* NHAMenuDrawerViewController.h */,
+				7514DE3C192792660051888C /* NHAMenuDrawerViewController.m */,
+				7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */,
+				7514DE3E1927945B0051888C /* NHAMenuTableViewController.h */,
+				7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */,
+				7514DE10192791740051888C /* aviationProject */,
+				7514DE29192791740051888C /* aviationProjectTests */,
+				7514DE09192791740051888C /* Frameworks */,
+				7514DE08192791740051888C /* Products */,
+				7514DE411927965C0051888C /* badge.html */,
+			);
+			sourceTree = "<group>";
+		};
+		7514DE08192791740051888C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE07192791740051888C /* aviationProject.app */,
+				7514DE22192791740051888C /* aviationProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7514DE09192791740051888C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE0A192791740051888C /* Foundation.framework */,
+				7514DE0C192791740051888C /* CoreGraphics.framework */,
+				7514DE0E192791740051888C /* UIKit.framework */,
+				7514DE23192791740051888C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7514DE10192791740051888C /* aviationProject */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE43192796940051888C /* aviationPics */,
+				7514DE19192791740051888C /* NHAAppDelegate.h */,
+				7514DE1A192791740051888C /* NHAAppDelegate.m */,
+				7514DE1C192791740051888C /* Images.xcassets */,
+				7514DE11192791740051888C /* Supporting Files */,
+			);
+			path = aviationProject;
+			sourceTree = "<group>";
+		};
+		7514DE11192791740051888C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE12192791740051888C /* aviationProject-Info.plist */,
+				7514DE13192791740051888C /* InfoPlist.strings */,
+				7514DE16192791740051888C /* main.m */,
+				7514DE18192791740051888C /* aviationProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7514DE29192791740051888C /* aviationProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE2F192791740051888C /* aviationProjectTests.m */,
+				7514DE2A192791740051888C /* Supporting Files */,
+			);
+			path = aviationProjectTests;
+			sourceTree = "<group>";
+		};
+		7514DE2A192791740051888C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7514DE2B192791740051888C /* aviationProjectTests-Info.plist */,
+				7514DE2C192791740051888C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7514DE06192791740051888C /* aviationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "aviationProject" */;
+			buildPhases = (
+				7514DE03192791740051888C /* Sources */,
+				7514DE04192791740051888C /* Frameworks */,
+				7514DE05192791740051888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aviationProject;
+			productName = aviationProject;
+			productReference = 7514DE07192791740051888C /* aviationProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7514DE21192791740051888C /* aviationProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "aviationProjectTests" */;
+			buildPhases = (
+				7514DE1E192791740051888C /* Sources */,
+				7514DE1F192791740051888C /* Frameworks */,
+				7514DE20192791740051888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7514DE28192791740051888C /* PBXTargetDependency */,
+			);
+			name = aviationProjectTests;
+			productName = aviationProjectTests;
+			productReference = 7514DE22192791740051888C /* aviationProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7514DDFF192791740051888C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NHA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NHAviation.org;
+				TargetAttributes = {
+					7514DE21192791740051888C = {
+						TestTargetID = 7514DE06192791740051888C;
+					};
+				};
+			};
+			buildConfigurationList = 7514DE02192791740051888C /* Build configuration list for PBXProject "aviationProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7514DDFE192791740051888C;
+			productRefGroup = 7514DE08192791740051888C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7514DE06192791740051888C /* aviationProject */,
+				7514DE21192791740051888C /* aviationProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7514DE05192791740051888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE44192796940051888C /* aviationPics in Resources */,
+				7514DE421927965C0051888C /* badge.html in Resources */,
+				7514DE3A192791A40051888C /* hamburgerStoryboard.storyboard in Resources */,
+				7514DE15192791740051888C /* InfoPlist.strings in Resources */,
+				7514DE1D192791740051888C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7514DE20192791740051888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE2E192791740051888C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7514DE03192791740051888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE1B192791740051888C /* NHAAppDelegate.m in Sources */,
+				7514DE3D192792660051888C /* NHAMenuDrawerViewController.m in Sources */,
+				7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */,
+				7514DE17192791740051888C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7514DE1E192791740051888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7514DE30192791740051888C /* aviationProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7514DE28192791740051888C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7514DE06192791740051888C /* aviationProject */;
+			targetProxy = 7514DE27192791740051888C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7514DE13192791740051888C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7514DE14192791740051888C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7514DE2C192791740051888C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7514DE2D192791740051888C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7514DE31192791740051888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7514DE32192791740051888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7514DE34192791740051888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
+				INFOPLIST_FILE = "aviationProject/aviationProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7514DE35192791740051888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
+				INFOPLIST_FILE = "aviationProject/aviationProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7514DE37192791740051888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aviationProject.app/aviationProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aviationProjectTests/aviationProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7514DE38192791740051888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aviationProject.app/aviationProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
+				INFOPLIST_FILE = "aviationProjectTests/aviationProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7514DE02192791740051888C /* Build configuration list for PBXProject "aviationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7514DE31192791740051888C /* Debug */,
+				7514DE32192791740051888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "aviationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7514DE34192791740051888C /* Debug */,
+				7514DE35192791740051888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "aviationProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7514DE37192791740051888C /* Debug */,
+				7514DE38192791740051888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7514DDFF192791740051888C /* Project object */;
+}

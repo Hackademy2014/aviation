@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FF7EA59-103E-4162-B0D5-66532D9ADD15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>aviationProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3977F8B-C471-4380-A78E-CC0BD1B76577</key>
+		<string>https://github.com/Hackademy2014/aviation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>aviationProject/aviationProject/aviationProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3977F8B-C471-4380-A78E-CC0BD1B76577</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hackademy2014/aviation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3977F8B-C471-4380-A78E-CC0BD1B76577</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3977F8B-C471-4380-A78E-CC0BD1B76577</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aviation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
