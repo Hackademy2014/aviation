@@ -11,9 +11,11 @@
 
 @interface NHAHomePageViewController ()
 
+
 @end
 
 @implementation NHAHomePageViewController
+@synthesize menuDrawerWidth, menuDrawerX, recognizer_open, recognizer_close;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,6 +30,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+    //menuDrawerWidth = self.view.frame.size.width * .75;
+    //menuDrawerX = self.view.frame.origin.x -menuDrawerWidth;
+    //menuDrawer= [[UIView alloc]initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y+statusBarHeight, menuDrawerWidth, self.view.frame.size.height-statusBarHeight)];
+    
+    
     
     UIGraphicsBeginImageContext(self.view.frame.size);
     //[[UIImage imageNamed:@"Blue_Sky.png"] drawInRect:self.view.bounds];
@@ -83,6 +92,9 @@
      [[UIApplication sharedApplication] openURL:url];
 }
 
+- (IBAction)hamburgerMenu:(id)sender {
+}
+
 - (IBAction)donate:(id)sender{
     NSString *stringURL = @"https://mobile.paypal.com/us/cgi-bin/webscr?cmd=_express-checkout-mobile&useraction=commit&token=EC-53A67114S5062843C#m";
     NSURL *url = [NSURL URLWithString:stringURL];
@@ -95,6 +107,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)menuButton:(id)sender{
+}
+
+-(void)handleSwipes:(UIGestureRecognizer *)sender {
+    
+}
+
+-(void)drawerAnimation{
+    
+}
 
 #pragma mark - Navigation
 

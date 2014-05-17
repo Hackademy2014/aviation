@@ -4,6 +4,87 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="0RD-Ah-AHU">
+            <objects>
+                <viewController id="YMP-fj-Q42" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ot-0u-EX2"/>
+                        <viewControllerLayoutGuide type="bottom" id="fDT-RQ-hzg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oOC-mt-kG9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue_Sky.png" translatesAutoresizingMaskIntoConstraints="NO" id="1jR-S4-dyo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhC-Jt-J6O">
+                                <rect key="frame" x="52" y="135" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glI-iT-LW1" userLabel="Hours">
+                                <rect key="frame" x="52" y="183" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="hoursandrates.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LeF-6C-ZMK" kind="modal" id="WbD-F8-1vF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ag-Wu-wv8">
+                                <rect key="frame" x="52" y="230" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mI1-au-W1L">
+                                <rect key="frame" x="52" y="277" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-jb-Z4W">
+                                <rect key="frame" x="52" y="323" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSJ-lT-jaL">
+                                <rect key="frame" x="52" y="368" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBv-T3-n3m">
+                                <rect key="frame" x="52" y="413" width="217" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="donate.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.39999999999999963" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-new.png" translatesAutoresizingMaskIntoConstraints="NO" id="hVH-KL-jat">
+                                <rect key="frame" x="62" y="38" width="196" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iA1-Lr-eX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="-937"/>
+        </scene>
         <!--Home Page View Controller-->
         <scene sceneID="zQm-Qg-3Ba">
             <objects>
@@ -13,7 +94,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3ad-qE-FV8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EO7-Hg-HlP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDG-MG-WJg">
@@ -122,7 +203,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
+                    <navigationItem key="navigationItem" id="Kze-lW-wtW">
+                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="u0z-O3-CXd">
+                            <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="W94-EA-1w9" userLabel="HamburgerHome">
+                                <rect key="frame" x="16" y="7" width="34" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <size key="titleShadowOffset" width="8" height="0.0"/>
+                                <state key="normal" backgroundImage="hamburger.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YMP-fj-Q42" kind="modal" modalTransitionStyle="coverVertical" id="370-Y1-EYR"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
@@ -134,17 +233,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT1-Vu-qSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="679" y="16"/>
+            <point key="canvasLocation" x="729" y="-254"/>
         </scene>
-        <!--Hours And Rates-->
+        <!--Hours And Rates - Title-->
         <scene sceneID="Ulz-xf-FCp">
             <objects>
                 <viewController id="LeF-6C-ZMK" customClass="NHAHoursAndRates" sceneMemberID="viewController">
                     <tableViewCell key="view" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="nms-NN-qtN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nms-NN-qtN" id="8TY-fo-s56">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="567"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="479"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuQ-ph-Dlb">
@@ -360,7 +459,7 @@
                             </subviews>
                         </tableViewCellContentView>
                     </tableViewCell>
-                    <navigationItem key="navigationItem" id="Djt-6O-6sO"/>
+                    <navigationItem key="navigationItem" title="Title" id="T05-qX-pLp"/>
                     <connections>
                         <outlet property="groupNumber" destination="aEC-zP-r2o" id="7ZC-xJ-bLs"/>
                         <outlet property="rentEvent" destination="gK6-xo-SLB" id="FGr-lB-FyL"/>
@@ -565,9 +664,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Blue_Sky.png" width="2048" height="1536"/>
         <image name="aboutus.png" width="370" height="99"/>
         <image name="donate.png" width="370" height="99"/>
         <image name="facebookicon.png" width="400" height="400"/>
+        <image name="hamburger.png" width="512" height="512"/>
         <image name="hoursandrates.png" width="370" height="99"/>
         <image name="logo-new.png" width="158" height="89"/>
         <image name="mailicon.png" width="512" height="512"/>
@@ -583,6 +684,9 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="B2E-7q-miN"/>
+    </inferredMetricsTieBreakers>
 </document>

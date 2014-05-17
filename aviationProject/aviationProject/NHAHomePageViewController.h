@@ -22,6 +22,14 @@
 
 @property (nonatomic, strong) IBOutlet UIButton *donateButton;
 
+@property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open,* recognizer_close;
+
+@property (readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
+
+-(void)handleSwipes:(UIGestureRecognizer *) sender;
+
+-(void)drawerAnimation;
+
 - (IBAction)openPhone:(id)sender;
 
 - (IBAction)openMail:(id)sender;
@@ -31,5 +39,7 @@
 - (IBAction)openFacebook:(id)sender;
 
 - (IBAction)openYoutube:(id)sender;
+
+- (IBAction)hamburgerMenu:(id)sender;
 
 @end

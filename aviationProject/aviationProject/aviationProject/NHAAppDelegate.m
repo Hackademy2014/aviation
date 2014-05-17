@@ -7,11 +7,15 @@
 //
 
 #import "NHAAppDelegate.h"
+//#import "NHAHomePageViewController.h"
 
 @implementation NHAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{//trying something
+   // NHAHomePageViewController *mv = [[NHAHomePageViewController alloc]initWithNibName:@"NHAHomePageViewController" bundle:nil];
+    
+   // self.window.rootViewController = mv;
     return YES;
 }
 
