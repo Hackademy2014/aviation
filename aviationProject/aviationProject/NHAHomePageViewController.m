@@ -36,7 +36,8 @@
     //menuDrawerX = self.view.frame.origin.x -menuDrawerWidth;
     //menuDrawer= [[UIView alloc]initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y+statusBarHeight, menuDrawerWidth, self.view.frame.size.height-statusBarHeight)];
     
-    
+    self.scrollView.scrollEnabled = YES;
+    [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width-10,490)];
     
     UIGraphicsBeginImageContext(self.view.frame.size);
     //[[UIImage imageNamed:@"Blue_Sky.png"] drawInRect:self.view.bounds];
@@ -56,7 +57,7 @@
     
     [self.youtubeButton addTarget:self action:@selector(openYoutube:) forControlEvents:UIControlEventTouchUpInside];
     
-    [self.donateButton addTarget:self action:@selector(donate:) forControlEvents:UIControlEventTouchUpInside];
+    /*[self.donateButton addTarget:self action:@selector(donate:) forControlEvents:UIControlEventTouchUpInside];*/
     
     [self.newsEventsButton addTarget:self action:@selector(seeNewsAndEvents:) forControlEvents:UIControlEventTouchUpInside];
 
@@ -76,17 +77,13 @@
 }
 
 - (IBAction)openMaps:(id)sender{
-    NSString *title = @"location";
-    float latitude = 42.929435;
-    float longitude = 71.426986;
-    int zoom = 13;
-    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%@@%1.6f,%1.6f&z=%d", title, latitude, longitude, zoom];
+    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=27+Navigator+Road,+Londonderry+NH+03053"];
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }
 
 - (IBAction)openFacebook:(id)sender{
-    NSURL *url = [NSURL URLWithString:@"fb://profile/nhahs"];
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/nhahs"];
      [[UIApplication sharedApplication] openURL:url];
 }
 
@@ -99,14 +96,14 @@
 - (IBAction)hamburgerMenu:(id)sender {
 }
 
-- (IBAction)donate:(id)sender{
+/*- (IBAction)donate:(id)sender{
     NSString *stringURL = @"https://mobile.paypal.com/us/cgi-bin/webscr?cmd=_express-checkout-mobile&useraction=commit&token=EC-53A67114S5062843C#m";
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
-}
+}*/
 
 - (IBAction)seeNewsAndEvents:(id)sender{
-    NSString *stringURL = @"https://www.facebook.com/nhahs";
+    NSString *stringURL = @"https://www.facebook.com/nhahs/events";
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }

@@ -10,6 +10,8 @@
 
 @interface NHAHomePageViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @property (nonatomic, strong) IBOutlet UIButton *phoneButton;
 
 @property (nonatomic, strong) IBOutlet UIButton *mailButton;
@@ -20,7 +22,7 @@
 
 @property (nonatomic, strong) IBOutlet UIButton *youtubeButton;
 
-@property (nonatomic, strong) IBOutlet UIButton *donateButton;
+/*@property (nonatomic, strong) IBOutlet UIButton *donateButton;*/
 
 @property (nonatomic, strong) IBOutlet UIButton *newsEventsButton;
 

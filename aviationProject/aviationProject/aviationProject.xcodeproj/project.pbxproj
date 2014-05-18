@@ -19,10 +19,18 @@
 		7514DE26192791740051888C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7514DE0E192791740051888C /* UIKit.framework */; };
 		7514DE2E192791740051888C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE2C192791740051888C /* InfoPlist.strings */; };
 		7514DE30192791740051888C /* aviationProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE2F192791740051888C /* aviationProjectTests.m */; };
-		7514DE3A192791A40051888C /* hamburgerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */; };
-		7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */; };
 		7514DE421927965C0051888C /* badge.html in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE411927965C0051888C /* badge.html */; };
 		7514DE44192796940051888C /* aviationPics in Resources */ = {isa = PBXBuildFile; fileRef = 7514DE43192796940051888C /* aviationPics */; };
+		7517D13B19283DEB000DB25C /* photogallerybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D13A19283DEB000DB25C /* photogallerybutton.png */; };
+		7517D14319283DFD000DB25C /* aboutusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D13C19283DFD000DB25C /* aboutusbutton.png */; };
+		7517D14419283DFD000DB25C /* exhibitsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D13D19283DFD000DB25C /* exhibitsbutton.png */; };
+		7517D14519283DFD000DB25C /* hoursandratesbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D13E19283DFD000DB25C /* hoursandratesbutton.png */; };
+		7517D14619283DFD000DB25C /* membershipbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D13F19283DFD000DB25C /* membershipbutton.png */; };
+		7517D14719283DFD000DB25C /* newlogo_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D14019283DFD000DB25C /* newlogo_large.png */; };
+		7517D14819283DFD000DB25C /* newsandeventsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D14119283DFD000DB25C /* newsandeventsbutton.png */; };
+		7517D14919283DFD000DB25C /* partnersandsponsors.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D14219283DFD000DB25C /* partnersandsponsors.png */; };
+		7517D14C19284355000DB25C /* applynowbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D14A19284355000DB25C /* applynowbutton.png */; };
+		7517D14D19284355000DB25C /* rentyoureventbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7517D14B19284355000DB25C /* rentyoureventbutton.png */; };
 		7570869A1927D0290067760C /* NHAMembershipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757086991927D0290067760C /* NHAMembershipViewController.m */; };
 		7570869D1927DAEF0067760C /* NHAAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7570869C1927DAEF0067760C /* NHAAboutUsViewController.m */; };
 		7570869F1927DEC60067760C /* terminal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7570869E1927DEC60067760C /* terminal.jpg */; };
@@ -78,11 +86,18 @@
 		7514DE2B192791740051888C /* aviationProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aviationProjectTests-Info.plist"; sourceTree = "<group>"; };
 		7514DE2D192791740051888C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7514DE2F192791740051888C /* aviationProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aviationProjectTests.m; sourceTree = "<group>"; };
-		7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = hamburgerStoryboard.storyboard; sourceTree = "<group>"; };
-		7514DE3E1927945B0051888C /* NHAMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMenuTableViewController.h; sourceTree = "<group>"; };
-		7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMenuTableViewController.m; sourceTree = "<group>"; };
 		7514DE411927965C0051888C /* badge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = badge.html; sourceTree = "<group>"; };
 		7514DE43192796940051888C /* aviationPics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aviationPics; path = ../aviationPics; sourceTree = "<group>"; };
+		7517D13A19283DEB000DB25C /* photogallerybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photogallerybutton.png; path = ../aviationPics/photogallerybutton.png; sourceTree = "<group>"; };
+		7517D13C19283DFD000DB25C /* aboutusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aboutusbutton.png; path = ../aviationPics/aboutusbutton.png; sourceTree = "<group>"; };
+		7517D13D19283DFD000DB25C /* exhibitsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exhibitsbutton.png; path = ../aviationPics/exhibitsbutton.png; sourceTree = "<group>"; };
+		7517D13E19283DFD000DB25C /* hoursandratesbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoursandratesbutton.png; path = ../aviationPics/hoursandratesbutton.png; sourceTree = "<group>"; };
+		7517D13F19283DFD000DB25C /* membershipbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = membershipbutton.png; path = ../aviationPics/membershipbutton.png; sourceTree = "<group>"; };
+		7517D14019283DFD000DB25C /* newlogo_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newlogo_large.png; path = ../aviationPics/newlogo_large.png; sourceTree = "<group>"; };
+		7517D14119283DFD000DB25C /* newsandeventsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newsandeventsbutton.png; path = ../aviationPics/newsandeventsbutton.png; sourceTree = "<group>"; };
+		7517D14219283DFD000DB25C /* partnersandsponsors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = partnersandsponsors.png; path = ../aviationPics/partnersandsponsors.png; sourceTree = "<group>"; };
+		7517D14A19284355000DB25C /* applynowbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applynowbutton.png; sourceTree = "<group>"; };
+		7517D14B19284355000DB25C /* rentyoureventbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rentyoureventbutton.png; sourceTree = "<group>"; };
 		757086981927D0290067760C /* NHAMembershipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAMembershipViewController.h; sourceTree = "<group>"; };
 		757086991927D0290067760C /* NHAMembershipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAMembershipViewController.m; sourceTree = "<group>"; };
 		7570869B1927DAEF0067760C /* NHAAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAAboutUsViewController.h; sourceTree = "<group>"; };
@@ -151,9 +166,6 @@
 				7570869C1927DAEF0067760C /* NHAAboutUsViewController.m */,
 				757086981927D0290067760C /* NHAMembershipViewController.h */,
 				757086991927D0290067760C /* NHAMembershipViewController.m */,
-				7514DE39192791A40051888C /* hamburgerStoryboard.storyboard */,
-				7514DE3E1927945B0051888C /* NHAMenuTableViewController.h */,
-				7514DE3F1927945B0051888C /* NHAMenuTableViewController.m */,
 				7514DE10192791740051888C /* aviationProject */,
 				7514DE29192791740051888C /* aviationProjectTests */,
 				7514DE09192791740051888C /* Frameworks */,
@@ -197,6 +209,16 @@
 		7514DE11192791740051888C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7517D14A19284355000DB25C /* applynowbutton.png */,
+				7517D14B19284355000DB25C /* rentyoureventbutton.png */,
+				7517D13C19283DFD000DB25C /* aboutusbutton.png */,
+				7517D13D19283DFD000DB25C /* exhibitsbutton.png */,
+				7517D13E19283DFD000DB25C /* hoursandratesbutton.png */,
+				7517D13F19283DFD000DB25C /* membershipbutton.png */,
+				7517D14019283DFD000DB25C /* newlogo_large.png */,
+				7517D14119283DFD000DB25C /* newsandeventsbutton.png */,
+				7517D14219283DFD000DB25C /* partnersandsponsors.png */,
+				7517D13A19283DEB000DB25C /* photogallerybutton.png */,
 				7570869E1927DEC60067760C /* terminal.jpg */,
 				75ADB2041927A8B800DFE481 /* aboutus.png */,
 				75ADB2051927A8B800DFE481 /* airplane.png */,
@@ -321,28 +343,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				7514DE44192796940051888C /* aviationPics in Resources */,
+				7517D14819283DFD000DB25C /* newsandeventsbutton.png in Resources */,
 				75ADB22B1927A8B800DFE481 /* sky.jpg in Resources */,
+				7517D14619283DFD000DB25C /* membershipbutton.png in Resources */,
 				75ADB2211927A8B800DFE481 /* hoursandrates.png in Resources */,
 				75ADB21C1927A8B800DFE481 /* Blue_Sky.png in Resources */,
+				7517D13B19283DEB000DB25C /* photogallerybutton.png in Resources */,
 				75ADB21F1927A8B800DFE481 /* hamburger.png in Resources */,
+				7517D14C19284355000DB25C /* applynowbutton.png in Resources */,
 				75ADB2251927A8B800DFE481 /* membership.png in Resources */,
+				7517D14419283DFD000DB25C /* exhibitsbutton.png in Resources */,
+				7517D14719283DFD000DB25C /* newlogo_large.png in Resources */,
 				7514DE421927965C0051888C /* badge.html in Resources */,
+				7517D14519283DFD000DB25C /* hoursandratesbutton.png in Resources */,
 				75ADB22C1927A8B800DFE481 /* sky.png in Resources */,
-				7514DE3A192791A40051888C /* hamburgerStoryboard.storyboard in Resources */,
 				75ADB2281927A8B800DFE481 /* phoneicon.png in Resources */,
 				75ADB21A1927A8B800DFE481 /* airplane.png in Resources */,
+				7517D14319283DFD000DB25C /* aboutusbutton.png in Resources */,
 				75ADB2221927A8B800DFE481 /* logo-new.png in Resources */,
 				75ADB1FD1927A50400DFE481 /* Main.storyboard in Resources */,
 				75ADB2191927A8B800DFE481 /* aboutus.png in Resources */,
 				75ADB22D1927A8B800DFE481 /* youtubeicon.png in Resources */,
 				75ADB22A1927A8B800DFE481 /* photogallery.png in Resources */,
 				75ADB2291927A8B800DFE481 /* phoneicon01.png in Resources */,
+				7517D14D19284355000DB25C /* rentyoureventbutton.png in Resources */,
 				75ADB2271927A8B800DFE481 /* partnersandsponsors.png in Resources */,
 				7570869F1927DEC60067760C /* terminal.jpg in Resources */,
 				75ADB21B1927A8B800DFE481 /* B17.png in Resources */,
 				75ADB2261927A8B800DFE481 /* newsandevents.png in Resources */,
 				7514DE15192791740051888C /* InfoPlist.strings in Resources */,
 				75ADB2231927A8B800DFE481 /* mailicon.png in Resources */,
+				7517D14919283DFD000DB25C /* partnersandsponsors.png in Resources */,
 				75ADB21D1927A8B800DFE481 /* donate.png in Resources */,
 				75ADB21E1927A8B800DFE481 /* facebookicon.png in Resources */,
 				7514DE1D192791740051888C /* Images.xcassets in Resources */,
@@ -367,7 +398,6 @@
 			files = (
 				7570869A1927D0290067760C /* NHAMembershipViewController.m in Sources */,
 				7514DE1B192791740051888C /* NHAAppDelegate.m in Sources */,
-				7514DE401927945B0051888C /* NHAMenuTableViewController.m in Sources */,
 				7514DE17192791740051888C /* main.m in Sources */,
 				75ADB2001927A57500DFE481 /* NHAHomePageViewController.m in Sources */,
 				7570869D1927DAEF0067760C /* NHAAboutUsViewController.m in Sources */,

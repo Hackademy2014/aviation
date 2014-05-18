@@ -35,6 +35,23 @@
     UIGraphicsEndImageContext();
     
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+    [self.applyMembership addTarget:self action:@selector(applyMembership:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.applyVolunteer addTarget:self action:@selector(applyVolunteer:) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+
+-(IBAction)applyMembership:(id)sender{
+    NSString *stringURL = @"http://nhahs.org/pdffiles/membership-application-2014.pdf";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+-(IBAction)applyVolunteer:(id)sender{
+    NSString *stringURL = @"http://nhahs.org/images/stories/volunteer-poster.pdf";
+    NSURL *url = [NSURL URLWithString:stringURL];
+    [[UIApplication sharedApplication] openURL:url];
 }
 
 - (void)didReceiveMemoryWarning

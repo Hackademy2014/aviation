@@ -10,4 +10,12 @@
 
 @interface NHAMembershipViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIButton *applyMembership;
+
+@property (nonatomic, strong) IBOutlet UIButton *applyVolunteer;
+
+-(IBAction)applyMembership:(id)sender;
+
+-(IBAction)applyVolunteer:(id)sender;
+
 @end
