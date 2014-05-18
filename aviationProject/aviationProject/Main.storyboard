@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller-->
+        <!--Home Page View Controller - Home-->
         <scene sceneID="zQm-Qg-3Ba">
             <objects>
                 <viewController id="2p2-2U-k9e" customClass="NHAHomePageViewController" sceneMemberID="viewController">
@@ -118,7 +118,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
+                    <navigationItem key="navigationItem" title="Home" id="Kze-lW-wtW"/>
                     <connections>
                         <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
@@ -134,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="-323" y="-220"/>
         </scene>
-        <!--Hours And Rates - Title-->
+        <!--Hours And Rates - Hours & Rates-->
         <scene sceneID="Ulz-xf-FCp">
             <objects>
                 <viewController id="LeF-6C-ZMK" customClass="NHAHoursAndRates" sceneMemberID="viewController">
@@ -358,7 +358,7 @@
                             </subviews>
                         </tableViewCellContentView>
                     </tableViewCell>
-                    <navigationItem key="navigationItem" title="Title" id="T05-qX-pLp"/>
+                    <navigationItem key="navigationItem" title="Hours &amp; Rates" id="T05-qX-pLp"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="600"/>
                     <connections>
@@ -370,7 +370,7 @@
             </objects>
             <point key="canvasLocation" x="222" y="-912"/>
         </scene>
-        <!--Membership View Controller-->
+        <!--Membership View Controller - Membership-->
         <scene sceneID="Bsx-sx-uLh">
             <objects>
                 <viewController id="3tC-m1-UYX" customClass="NHAMembershipViewController" sceneMemberID="viewController">
@@ -478,7 +478,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dJ2-Rs-t6e">
+                    <navigationItem key="navigationItem" title="Membership" id="dJ2-Rs-t6e">
                         <barButtonItem key="backBarButtonItem" title="Hello" id="QMw-BB-mM2"/>
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -606,7 +606,7 @@
             </objects>
             <point key="canvasLocation" x="210" y="440"/>
         </scene>
-        <!--About Us View Controller-->
+        <!--About Us View Controller - About Us-->
         <scene sceneID="Cpo-57-ipP">
             <objects>
                 <viewController id="fWs-94-GtZ" customClass="NHAAboutUsViewController" sceneMemberID="viewController">
@@ -689,7 +689,8 @@ To preserve the history and promote the advancement and dissemination of aviatio
                                         <rect key="frame" x="31" y="463" width="219" height="400"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                         <gestureRecognizers/>
-                                        <string key="text">Company Overview 
+                                        <string key="text">Company Overview
+
 The New Hampshire Aviation Historical Society (NHAHS) is a non-profit organization founded in 1995. Our goal is to combine aviation preservation and educational
 </string>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
@@ -707,7 +708,7 @@ The New Hampshire Aviation Historical Society (NHAHS) is a non-profit organizati
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AAX-93-8Qg"/>
+                    <navigationItem key="navigationItem" title="About Us" id="AAX-93-8Qg"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1000"/>
                     <connections>
