@@ -22,8 +22,6 @@
 
 @property (nonatomic, strong) IBOutlet UIButton *youtubeButton;
 
-/*@property (nonatomic, strong) IBOutlet UIButton *donateButton;*/
-
 @property (nonatomic, strong) IBOutlet UIButton *newsEventsButton;
 
 @property (nonatomic, strong) IBOutlet UIButton *photosButton;
@@ -45,7 +43,5 @@
 - (IBAction)openFacebook:(id)sender;
 
 - (IBAction)openYoutube:(id)sender;
-
-- (IBAction)hamburgerMenu:(id)sender;
 
 @end

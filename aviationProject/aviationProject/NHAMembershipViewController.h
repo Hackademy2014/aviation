@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHAMembershipViewController : UIViewController
+@interface NHAMembershipViewController : UIViewController{
+    
+    IBOutlet UIScrollView *scroller;
+    
+}
 
 @property (nonatomic, strong) IBOutlet UIButton *applyMembership;
 

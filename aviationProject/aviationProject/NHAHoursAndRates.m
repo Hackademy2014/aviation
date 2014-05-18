@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    
     // Do any additional setup after loading the view.
     UIGraphicsBeginImageContext(self.view.frame.size);
     //[[UIImage imageNamed:@"Blue_Sky.png"] drawInRect:self.view.bounds];

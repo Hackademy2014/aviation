@@ -314,6 +314,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = NHAviation.org;
 				TargetAttributes = {
+					7514DE06192791740051888C = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					7514DE21192791740051888C = {
 						TestTargetID = 7514DE06192791740051888C;
 					};

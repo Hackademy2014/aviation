@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHAAboutUsViewController : UIViewController
+@interface NHAAboutUsViewController : UIViewController{
+   
+    IBOutlet UIScrollView *scroller;
+    
+}
+
+//@property (weak, nonatomic) IBOutlet UIScrollView *scroller;
 
 @end

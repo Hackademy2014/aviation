@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHAHoursAndRates : UIViewController
+@interface NHAHoursAndRates : UIViewController{
+    
+    IBOutlet UIScrollView *scroller;
+}
 
 @property (nonatomic, strong) IBOutlet UIButton *groupNumber;
 
