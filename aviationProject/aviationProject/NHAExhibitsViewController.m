@@ -1,18 +1,18 @@
 //
-//  NHAHoursAndRates.m
-//  HelloWorld
+//  NHAExhibitsViewController.m
+//  aviationProject
 //
-//  Created by Hackademy on 5/16/14.
-//  Copyright (c) 2014 Dyn. All rights reserved.
+//  Created by Hackademy on 5/18/14.
+//  Copyright (c) 2014 NHAviation.org. All rights reserved.
 //
 
-#import "NHAHoursAndRates.h"
+#import "NHAExhibitsViewController.h"
 
-@interface NHAHoursAndRates ()
+@interface NHAExhibitsViewController ()
 
 @end
 
-@implementation NHAHoursAndRates
+@implementation NHAExhibitsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,10 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
     
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(250, 1100)];
-    
+    [scroller setContentSize:CGSizeMake(250, 2200)];
+    // Dispose of any resources that can be recreated.
     
     // Do any additional setup after loading the view.
     UIGraphicsBeginImageContext(self.view.frame.size);
@@ -39,27 +40,11 @@
     UIGraphicsEndImageContext();
     
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
-    
-    [self.groupNumber addTarget:self action:@selector(callGroupNumber:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.rentEvent addTarget:self action:@selector(rentEvent:) forControlEvents:UIControlEventTouchUpInside];
-}
-
--(IBAction)callGroupNumber:(id)sender{
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"tel:+16036694877"]];
-    [[UIApplication sharedApplication] openURL:url];
-}
-
--(IBAction)rentEvent:(id)sender{
-    NSString *stringURL = @"http://nhahs.org/images/stories/Event_Center_Brochure_LORES.pdf";
-    NSURL *url = [NSURL URLWithString:stringURL];
-    [[UIApplication sharedApplication] openURL:url];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*
