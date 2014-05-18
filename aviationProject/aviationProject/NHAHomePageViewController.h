@@ -26,13 +26,7 @@
 
 @property (nonatomic, strong) IBOutlet UIButton *photosButton;
 
-@property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open,* recognizer_close;
-
-@property (readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
-
--(void)handleSwipes:(UIGestureRecognizer *) sender;
-
--(void)drawerAnimation;
+@property (nonatomic, strong) IBOutlet UIButton *hamburgerButton;
 
 - (IBAction)openPhone:(id)sender;
 
@@ -43,7 +37,5 @@
 - (IBAction)openFacebook:(id)sender;
 
 - (IBAction)openYoutube:(id)sender;
-
-- (IBAction)hamburgerMenu:(id)sender;
 
 @end

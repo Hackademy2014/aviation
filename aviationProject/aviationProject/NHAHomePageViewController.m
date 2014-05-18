@@ -15,7 +15,6 @@
 @end
 
 @implementation NHAHomePageViewController
-@synthesize menuDrawerWidth, menuDrawerX, recognizer_open, recognizer_close;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,17 +28,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-    //int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
-    //menuDrawerWidth = self.view.frame.size.width * .75;
-    //menuDrawerX = self.view.frame.origin.x -menuDrawerWidth;
-    //menuDrawer= [[UIView alloc]initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y+statusBarHeight, menuDrawerWidth, self.view.frame.size.height-statusBarHeight)];
-    
+    self.hamburgerButton.hidden = YES;
+    self.hamburgerButton.enabled = NO;
     
     
     UIGraphicsBeginImageContext(self.view.frame.size);
-    //[[UIImage imageNamed:@"Blue_Sky.png"] drawInRect:self.view.bounds];
     [[UIImage imageNamed:@"sky.jpg"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
@@ -76,17 +70,16 @@
 }
 
 - (IBAction)openMaps:(id)sender{
-    NSString *title = @"location";
     float latitude = 42.929435;
-    float longitude = 71.426986;
+    float longitude = -71.427799;
     int zoom = 13;
-    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%@@%1.6f,%1.6f&z=%d", title, latitude, longitude, zoom];
+    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%f,%f&z=%d", latitude, longitude, zoom];
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }
 
 - (IBAction)openFacebook:(id)sender{
-    NSURL *url = [NSURL URLWithString:@"fb://profile/nhahs"];
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/nhahs"];
      [[UIApplication sharedApplication] openURL:url];
 }
 
@@ -94,9 +87,6 @@
     NSString *stringURL = @"https://www.youtube.com/watch?feature=player_embedded&v=M_g39M7XkW4";
      NSURL *url = [NSURL URLWithString:stringURL];
      [[UIApplication sharedApplication] openURL:url];
-}
-
-- (IBAction)hamburgerMenu:(id)sender {
 }
 
 - (IBAction)donate:(id)sender{
@@ -121,17 +111,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(IBAction)menuButton:(id)sender{
-}
-
--(void)handleSwipes:(UIGestureRecognizer *)sender {
-    
-}
-
--(void)drawerAnimation{
-    
 }
 
 #pragma mark - Navigation
