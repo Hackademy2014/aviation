@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller-->
+        <!--Home Page View Controller - Home-->
         <scene sceneID="zQm-Qg-3Ba">
             <objects>
                 <viewController id="2p2-2U-k9e" customClass="NHAHomePageViewController" sceneMemberID="viewController">
@@ -122,7 +122,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
+                    <navigationItem key="navigationItem" title="Home" id="Kze-lW-wtW"/>
                     <connections>
                         <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
@@ -138,7 +138,7 @@
             </objects>
             <point key="canvasLocation" x="729" y="-254"/>
         </scene>
-        <!--Hours And Rates - Title-->
+        <!--Hours And Rates - Hours & Rates-->
         <scene sceneID="Ulz-xf-FCp">
             <objects>
                 <viewController id="LeF-6C-ZMK" customClass="NHAHoursAndRates" sceneMemberID="viewController">
@@ -362,7 +362,7 @@
                             </subviews>
                         </tableViewCellContentView>
                     </tableViewCell>
-                    <navigationItem key="navigationItem" title="Title" id="T05-qX-pLp"/>
+                    <navigationItem key="navigationItem" title="Hours &amp; Rates" id="T05-qX-pLp"/>
                     <connections>
                         <outlet property="groupNumber" destination="aEC-zP-r2o" id="7ZC-xJ-bLs"/>
                         <outlet property="rentEvent" destination="gK6-xo-SLB" id="FGr-lB-FyL"/>
@@ -372,7 +372,7 @@
             </objects>
             <point key="canvasLocation" x="1414" y="-672"/>
         </scene>
-        <!--Membership View Controller-->
+        <!--Membership View Controller - Membership-->
         <scene sceneID="Bsx-sx-uLh">
             <objects>
                 <viewController id="3tC-m1-UYX" customClass="NHAMembershipViewController" sceneMemberID="viewController">
@@ -478,7 +478,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dJ2-Rs-t6e">
+                    <navigationItem key="navigationItem" title="Membership" id="dJ2-Rs-t6e">
                         <barButtonItem key="backBarButtonItem" title="Hello" id="QMw-BB-mM2"/>
                     </navigationItem>
                 </viewController>
@@ -486,7 +486,7 @@
             </objects>
             <point key="canvasLocation" x="1414" y="16"/>
         </scene>
-        <!--About Us View Controller-->
+        <!--About Us View Controller - About Us-->
         <scene sceneID="Cpo-57-ipP">
             <objects>
                 <viewController id="fWs-94-GtZ" customClass="NHAAboutUsViewController" sceneMemberID="viewController">
@@ -539,7 +539,7 @@
                                         <rect key="frame" x="20" y="20" width="237" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <gestureRecognizers/>
-                                        <mutableString key="text">Our goal is to combine lktjrl;jglkslkalekf;slkfladkfga;lsdkf;alsdkfa;lsdkfa;sldkfasldfka;slkfa;sldkfs;dlfkas;dlfkasd;lfkas/dflkas;dfk's;dlfka';sldkfa'sldf'asdlfkas';lfkas;dlfk'sd;lfkasdl;fkas'd;fla's;dlfka's;ldfk'asldfk'as;ldfk'a;sdlkf';sdlfk'sd;lk'fa;sldkfa';sdlkfsa;kaviation preservation and educational outreach activities with social events that provide an opportunity for members to experience interesting and informative events and to share their pasasfjalskjflakejjjfjfjjfjfjjjjfj;alkwje;laksdjfalksdjfa;lskdjfa;lsjf;laksdjf;alskdjfa;sldkfja;sldkfgja;sldkfjasldkfja;lskdgja;slkdfj;slkja;slkdgja;slkdjgas;ldkfja;sldkjfa;sldkfj;alsdkjfa;slkdjfa;sldkjf;salkdjf;lekjsion for aviation history with good friends and good times.</mutableString>
+                                        <string key="text">Our goal is to combine lktjrl;jglkslkalekf;slkfladkfga;lsdkf;alsdkfa;lsdkfa;sldkfasldfka;slkfa;sldkfs;dlfkas;dlfkasd;lfkas/dflkas;dfk's;dlfka';sldkfa'sldf'asdlfkas';lfkas;dlfk'sd;lfkasdl;fkas'd;fla's;dlfka's;ldfk'asldfk'as;ldfk'a;sdlkf';sdlfk'sd;lk'fa;sldkfa';sdlkfsa;kaviation preservation and educational outreach activities with social events that provide an opportunity for members to experience interesting and informative events and to share their pasasfjalskjflakejjjfjfjjfjfjjjjfj;alkwje;laksdjfalksdjfa;lskdjfa;lsjf;laksdjf;alskdjfa;sldkfja;sldkfgja;sldkfjasldkfja;lskdgja;slkdfj;slkja;slkdgja;slkdjgas;ldkfja;sldkjfa;sldkfj;alsdkjfa;slkdjfa;sldkjf;salkdjf;lekjsion for aviation history with good friends and good times.</string>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -553,7 +553,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AAX-93-8Qg"/>
+                    <navigationItem key="navigationItem" title="About Us" id="AAX-93-8Qg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Te-ms-l9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0gp-8e-gj3"/>
