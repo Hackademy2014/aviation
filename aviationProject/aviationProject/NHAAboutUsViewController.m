@@ -31,7 +31,7 @@
     // Do any additional setup after loading the view.
     
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(250, 1300)];
+    [scroller setContentSize:CGSizeMake(250, 900)];
     //self.scroller.scrollEnabled = YES;
     //self.scroller.contentSize = CGSizeMake(self.view.frame.size.width-10,600);
     
