@@ -15,7 +15,6 @@
 @end
 
 @implementation NHAHomePageViewController
-@synthesize menuDrawerWidth, menuDrawerX, recognizer_open, recognizer_close;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,18 +28,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    //int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
-    //menuDrawerWidth = self.view.frame.size.width * .75;
-    //menuDrawerX = self.view.frame.origin.x -menuDrawerWidth;
-    //menuDrawer= [[UIView alloc]initWithFrame:CGRectMake(menuDrawerX, self.view.frame.origin.y+statusBarHeight, menuDrawerWidth, self.view.frame.size.height-statusBarHeight)];
-    
+
     self.scrollView.scrollEnabled = YES;
     [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width-10,490)];
     
     UIGraphicsBeginImageContext(self.view.frame.size);
-    //[[UIImage imageNamed:@"Blue_Sky.png"] drawInRect:self.view.bounds];
     [[UIImage imageNamed:@"sky.jpg"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
@@ -56,8 +48,6 @@
     [self.facebookButton addTarget:self action:@selector(openFacebook:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.youtubeButton addTarget:self action:@selector(openYoutube:) forControlEvents:UIControlEventTouchUpInside];
-    
-    /*[self.donateButton addTarget:self action:@selector(donate:) forControlEvents:UIControlEventTouchUpInside];*/
     
     [self.newsEventsButton addTarget:self action:@selector(seeNewsAndEvents:) forControlEvents:UIControlEventTouchUpInside];
 
@@ -109,17 +99,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(IBAction)menuButton:(id)sender{
-}
-
--(void)handleSwipes:(UIGestureRecognizer *)sender {
-    
-}
-
--(void)drawerAnimation{
-    
 }
 
 #pragma mark - Navigation
