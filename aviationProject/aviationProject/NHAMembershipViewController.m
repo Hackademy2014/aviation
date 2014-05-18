@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(250, 600)];
     // Do any additional setup after loading the view.
     
     UIGraphicsBeginImageContext(self.view.frame.size);
