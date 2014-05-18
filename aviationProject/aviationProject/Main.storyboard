@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller - Home-->
+        <!--Home Page View Controller-->
         <scene sceneID="zQm-Qg-3Ba">
             <objects>
                 <viewController id="2p2-2U-k9e" customClass="NHAHomePageViewController" sceneMemberID="viewController">
@@ -112,7 +112,6 @@
                     <navigationItem key="navigationItem" id="Kze-lW-wtW"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <size key="freeformSize" width="320" height="489"/>
-
                     <connections>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
                         <outlet property="mailButton" destination="0g8-8l-LN3" id="sQO-3D-VOa"/>
@@ -368,7 +367,7 @@
             <objects>
                 <viewController id="3tC-m1-UYX" customClass="NHAMembershipViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LT6-AX-ZxO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="byL-b8-Dgt">
@@ -476,7 +475,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="applyMembership" destination="iah-6x-AnR" id="CPu-0I-p9q"/>
-                        <outlet property="applyVolunteer" destination="Hui-Ud-3L7" id="TSw-kB-kUb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oh9-bn-6Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -735,7 +733,6 @@ The New Hampshire Aviation Historical Society (NHAHS) is a non-profit organizati
     </scenes>
     <resources>
         <image name="aboutusbutton.png" width="213" height="45"/>
-        <image name="applynowbutton.png" width="213" height="45"/>
         <image name="exhibitsbutton.png" width="213" height="45"/>
         <image name="facebookicon.png" width="400" height="400"/>
         <image name="hoursandratesbutton.png" width="213" height="45"/>
