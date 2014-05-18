@@ -10,6 +10,8 @@
 
 @interface NHAHomePageViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @property (nonatomic, strong) IBOutlet UIButton *phoneButton;
 
 @property (nonatomic, strong) IBOutlet UIButton *mailButton;

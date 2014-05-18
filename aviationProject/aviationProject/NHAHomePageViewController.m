@@ -28,10 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.hamburgerButton.hidden = YES;
-    self.hamburgerButton.enabled = NO;
-    
+
+    self.scrollView.scrollEnabled = YES;
+    [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width-10,490)];
     
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"sky.jpg"] drawInRect:self.view.bounds];
@@ -68,10 +67,7 @@
 }
 
 - (IBAction)openMaps:(id)sender{
-    float latitude = 42.929435;
-    float longitude = -71.427799;
-    int zoom = 13;
-    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=%f,%f&z=%d", latitude, longitude, zoom];
+    NSString *stringURL = [NSString stringWithFormat:@"http://maps.apple.com/maps?q=27+Navigator+Road,+Londonderry+NH+03053"];
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }
@@ -88,7 +84,7 @@
 }
 
 - (IBAction)seeNewsAndEvents:(id)sender{
-    NSString *stringURL = @"https://www.facebook.com/nhahs";
+    NSString *stringURL = @"https://www.facebook.com/nhahs/events";
     NSURL *url = [NSURL URLWithString:stringURL];
     [[UIApplication sharedApplication] openURL:url];
 }
