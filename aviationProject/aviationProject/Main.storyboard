@@ -55,13 +55,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOX-xN-V5X">
-                                <rect key="frame" x="60" y="378" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Donate" image="donate.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3K-aq-X9c">
                                 <rect key="frame" x="26" y="476" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -98,7 +91,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMl-vj-Nlt">
-                                <rect key="frame" x="60" y="420" width="200" height="50"/>
+                                <rect key="frame" x="60" y="380" width="200" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Donate" image="aboutus.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,10 +115,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Kze-lW-wtW"/>
+                    <navigationItem key="navigationItem" title="Home" id="Kze-lW-wtW">
+                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="u0z-O3-CXd">
+                            <button key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="W94-EA-1w9" userLabel="HamburgerHome">
+                                <rect key="frame" x="16" y="7" width="34" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <size key="titleShadowOffset" width="8" height="0.0"/>
+                                <state key="normal" backgroundImage="hamburger.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="donateButton" destination="TOX-xN-V5X" id="Jsh-19-3cB"/>
                         <outlet property="facebookButton" destination="lqZ-Un-WxR" id="fOC-Ci-NIo"/>
+                        <outlet property="hamburgerButton" destination="W94-EA-1w9" id="7VH-gO-3E5"/>
                         <outlet property="mailButton" destination="0g8-8l-LN3" id="sQO-3D-VOa"/>
                         <outlet property="mapsButton" destination="XBI-6d-0hP" id="64u-qV-bAu"/>
                         <outlet property="newsEventsButton" destination="VmR-nC-mib" id="p8N-W3-ZRu"/>
@@ -136,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT1-Vu-qSy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="-254"/>
+            <point key="canvasLocation" x="767" y="-196"/>
         </scene>
         <!--Hours And Rates - Hours & Rates-->
         <scene sceneID="Ulz-xf-FCp">
@@ -478,9 +486,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Membership" id="dJ2-Rs-t6e">
-                        <barButtonItem key="backBarButtonItem" title="Hello" id="QMw-BB-mM2"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Membership" id="dJ2-Rs-t6e"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oh9-bn-6Cv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -581,8 +587,8 @@
     </scenes>
     <resources>
         <image name="aboutus.png" width="370" height="99"/>
-        <image name="donate.png" width="370" height="99"/>
         <image name="facebookicon.png" width="400" height="400"/>
+        <image name="hamburger.png" width="512" height="512"/>
         <image name="hoursandrates.png" width="370" height="99"/>
         <image name="logo-new.png" width="158" height="89"/>
         <image name="mailicon.png" width="512" height="512"/>
