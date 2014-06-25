@@ -78,20 +78,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7514DE07192791740051888C /* aviationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aviationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7514DE07192791740051888C /* Aviation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7514DE0A192791740051888C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7514DE0C192791740051888C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7514DE0E192791740051888C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7514DE12192791740051888C /* aviationProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aviationProject-Info.plist"; sourceTree = "<group>"; };
+		7514DE12192791740051888C /* Aviation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aviation-Info.plist"; sourceTree = "<group>"; };
 		7514DE14192791740051888C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7514DE16192791740051888C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7514DE18192791740051888C /* aviationProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aviationProject-Prefix.pch"; sourceTree = "<group>"; };
+		7514DE18192791740051888C /* Aviation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aviation-Prefix.pch"; sourceTree = "<group>"; };
 		7514DE19192791740051888C /* NHAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAAppDelegate.h; sourceTree = "<group>"; };
 		7514DE1A192791740051888C /* NHAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAAppDelegate.m; sourceTree = "<group>"; };
 		7514DE1C192791740051888C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7514DE22192791740051888C /* aviationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aviationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7514DE22192791740051888C /* AviationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7514DE23192791740051888C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7514DE2B192791740051888C /* aviationProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aviationProjectTests-Info.plist"; sourceTree = "<group>"; };
+		7514DE2B192791740051888C /* AviationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AviationTests-Info.plist"; sourceTree = "<group>"; };
 		7514DE2D192791740051888C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7514DE2F192791740051888C /* aviationProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aviationProjectTests.m; sourceTree = "<group>"; };
 		7514DE411927965C0051888C /* badge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = badge.html; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 		7514DE08192791740051888C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7514DE07192791740051888C /* aviationProject.app */,
-				7514DE22192791740051888C /* aviationProjectTests.xctest */,
+				7514DE07192791740051888C /* Aviation.app */,
+				7514DE22192791740051888C /* AviationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,10 +266,10 @@
 				75ADB2161927A8B800DFE481 /* sky.jpg */,
 				75ADB2171927A8B800DFE481 /* sky.png */,
 				75ADB2181927A8B800DFE481 /* youtubeicon.png */,
-				7514DE12192791740051888C /* aviationProject-Info.plist */,
+				7514DE12192791740051888C /* Aviation-Info.plist */,
 				7514DE13192791740051888C /* InfoPlist.strings */,
 				7514DE16192791740051888C /* main.m */,
-				7514DE18192791740051888C /* aviationProject-Prefix.pch */,
+				7514DE18192791740051888C /* Aviation-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 		7514DE2A192791740051888C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7514DE2B192791740051888C /* aviationProjectTests-Info.plist */,
+				7514DE2B192791740051888C /* AviationTests-Info.plist */,
 				7514DE2C192791740051888C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7514DE06192791740051888C /* aviationProject */ = {
+		7514DE06192791740051888C /* Aviation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "aviationProject" */;
+			buildConfigurationList = 7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "Aviation" */;
 			buildPhases = (
 				7514DE03192791740051888C /* Sources */,
 				7514DE04192791740051888C /* Frameworks */,
@@ -307,14 +307,14 @@
 			);
 			dependencies = (
 			);
-			name = aviationProject;
+			name = Aviation;
 			productName = aviationProject;
-			productReference = 7514DE07192791740051888C /* aviationProject.app */;
+			productReference = 7514DE07192791740051888C /* Aviation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7514DE21192791740051888C /* aviationProjectTests */ = {
+		7514DE21192791740051888C /* AviationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "aviationProjectTests" */;
+			buildConfigurationList = 7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "AviationTests" */;
 			buildPhases = (
 				7514DE1E192791740051888C /* Sources */,
 				7514DE1F192791740051888C /* Frameworks */,
@@ -325,9 +325,9 @@
 			dependencies = (
 				7514DE28192791740051888C /* PBXTargetDependency */,
 			);
-			name = aviationProjectTests;
+			name = AviationTests;
 			productName = aviationProjectTests;
-			productReference = 7514DE22192791740051888C /* aviationProjectTests.xctest */;
+			productReference = 7514DE22192791740051888C /* AviationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -352,7 +352,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7514DE02192791740051888C /* Build configuration list for PBXProject "aviationProject" */;
+			buildConfigurationList = 7514DE02192791740051888C /* Build configuration list for PBXProject "Aviation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -364,8 +364,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7514DE06192791740051888C /* aviationProject */,
-				7514DE21192791740051888C /* aviationProjectTests */,
+				7514DE06192791740051888C /* Aviation */,
+				7514DE21192791740051888C /* AviationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -459,7 +459,7 @@
 /* Begin PBXTargetDependency section */
 		7514DE28192791740051888C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7514DE06192791740051888C /* aviationProject */;
+			target = 7514DE06192791740051888C /* Aviation */;
 			targetProxy = 7514DE27192791740051888C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,9 +560,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
-				INFOPLIST_FILE = "aviationProject/aviationProject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "aviationProject/Aviation-Prefix.pch";
+				INFOPLIST_FILE = "aviationProject/Aviation-Info.plist";
+				PRODUCT_NAME = Aviation;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -574,9 +574,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
-				INFOPLIST_FILE = "aviationProject/aviationProject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "aviationProject/Aviation-Prefix.pch";
+				INFOPLIST_FILE = "aviationProject/Aviation-Info.plist";
+				PRODUCT_NAME = Aviation;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -597,8 +597,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "aviationProjectTests/aviationProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "aviationProjectTests/AviationTests-Info.plist";
+				PRODUCT_NAME = AviationTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -615,8 +615,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "aviationProject/aviationProject-Prefix.pch";
-				INFOPLIST_FILE = "aviationProjectTests/aviationProjectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "aviationProjectTests/AviationTests-Info.plist";
+				PRODUCT_NAME = AviationTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -625,7 +625,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7514DE02192791740051888C /* Build configuration list for PBXProject "aviationProject" */ = {
+		7514DE02192791740051888C /* Build configuration list for PBXProject "Aviation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7514DE31192791740051888C /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "aviationProject" */ = {
+		7514DE33192791740051888C /* Build configuration list for PBXNativeTarget "Aviation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7514DE34192791740051888C /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "aviationProjectTests" */ = {
+		7514DE36192791740051888C /* Build configuration list for PBXNativeTarget "AviationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7514DE37192791740051888C /* Debug */,
